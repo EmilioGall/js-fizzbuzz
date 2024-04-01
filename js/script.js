@@ -4,8 +4,6 @@ console.log(rowElem);
 
 for (let i = 1; i <= 100; i++) {
 
-    console.log(i);
-
     let boxClass;
 
     let printElem;
@@ -16,7 +14,7 @@ for (let i = 1; i <= 100; i++) {
 
         printElem = "FizzBuzz";
 
-        console.log("FizzBuzz");
+        console.log(i, "FizzBuzz");
 
     } else if (i % 3 === 0) {
 
@@ -24,7 +22,7 @@ for (let i = 1; i <= 100; i++) {
 
         printElem = "Fizz";
 
-        console.log("Fizz");
+        console.log(i, "Fizz");
 
     } else if (i % 5 === 0) {
 
@@ -32,11 +30,13 @@ for (let i = 1; i <= 100; i++) {
 
         printElem = "Buzz";
 
-        console.log("Buzz");
+        console.log(i, "Buzz");
 
     } else {
         
         printElem = i;
+
+        console.log(i);
 
     }
 
