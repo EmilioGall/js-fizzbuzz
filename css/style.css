@@ -1,0 +1,19 @@
+.box {
+    background-color: lightskyblue;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+}
+
+.fizz {
+    background-color: lightgreen;
+}
+
+.buzz {
+    background-color: yellow;
+}
+
+.fizz-buzz {
+    background-color: lightcoral;
+}
