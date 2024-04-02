@@ -1,3 +1,5 @@
+'use strict'
+
 const rowElem = document.querySelector(".row"); // object | null
 
 console.log(rowElem);
